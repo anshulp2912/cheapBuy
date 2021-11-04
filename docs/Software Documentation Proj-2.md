@@ -30,12 +30,12 @@ Code Functionalities:
 ○ function scrap_ebay(driver, search_term) Webpage of the product corresponding to search_term is retrieved using BeautifulSoup and Selenium chrome web driver. 
 ○ function extract_item_ebay(driver, search_term) Extracts the product description, price , URL and website name (“EBay”) best corresponding to search_term and returns it through a dictionary variable.
 <br><br> 
-5.web_scrapper_walmart.py 
+5. web_scrapper_walmart.py 
 ○ function get_url_walmart(search_term) This function returns the url corresponding to the walmart website for the product (search_term) given as an argument. 
 ○ function scrap_walmart(driver, search_term) Webpage of the product corresponding to search_term is retrieved using BeautifulSoup and Selenium chrome web driver. 
 ○ function extract_item_walmart(driver, search_term) Extracts the product description, price , URL and website name (“Walmart”) best corresponding to search_term and returns it through a dictionary variable.
 <br><br>
-6.WebScrapper_Costco.py
+6. WebScrapper_Costco.py
 <br><br>
 7. FetchDescription.py
 <br><br>
