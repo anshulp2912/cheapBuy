@@ -84,20 +84,35 @@ class WebScrapper_Walmart(Thread):
             self.result = {}
              
     def get_driver(self):
+        """ 
+        Returns Chrome Driver
+        """
+    	#Prepare driver for scrapping
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
         return driver
         
     def get_url_walmart(self):
+        """ 
+        Returns walmart URL
+        """
+    	#Prepare URL for given description
         template = 'https://www.walmart.com/search?q={}'
         search_term = self.description.replace(' ','+')
         return template.format(search_term)
 
     def scrap_walmart(self):
+        """ 
+        Returns Scraped result
+        """
+    	#Call the function to get URL
         url = self.get_url_walmart()
+        #Assign the URL to driver
         self.driver.get(url)
+        #Use BeautifulSoup to scrap the webpage
         soup = BeautifulSoup(self.driver.page_source, 'html.parser')
         results = soup.find_all('div',{'class': 'h-100 pb1-xl pr4-xl pv1 ph1'})
         return results
 
+    
