@@ -101,7 +101,7 @@ The project is deployed on both Streamlit cloud:
 git clone https://github.com/anshulp2912/cheapBuy.git
 cd cheapBuy
 ```
-2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of those.
+2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of the requirements.
 ```
 pip install -r requirements.txt
 ```
