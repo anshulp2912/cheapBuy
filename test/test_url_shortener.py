@@ -5,7 +5,7 @@ Created on Thu Nov  4 00:27:27 2021
 @author: Rohan Shah
 """
 
-from url_shortener import shorten_url
+from source.utils.url_shortener import shorten_url
 
 def test_url_shortener():
     url = 'https://www.walmart.com/ip/Brita-Longlast-Water-Filter-Replacement-Reduces-Lead-2-Count/128876038'
