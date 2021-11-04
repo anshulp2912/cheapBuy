@@ -11,7 +11,7 @@ pip install -r requirements.txt
 3. To run the server
 
 ```
-python3 code/web_scrappers/server_api.py
+python3 source/web_scrappers/server_api.py
 
 ```
 4. Load extension in the chrome by just adding the code/extension folder to the load unpacked button on the top left in chrome://extensions.
