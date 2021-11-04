@@ -15,12 +15,12 @@ Score|Notes| Self-Assessment| Evidence|
 |1|Issues reports: there are many  |1| Evidence in [RoadMap](https://github.com/anshulp2912/cheapBuy/projects/1) |
 |.5|Use of code formatters. |.5| in Github [Actions](https://github.com/anshulp2912/cheapBuy/actions)|
 |.5|Use of style checkers |.5| in Github [Actions](https://github.com/anshulp2912/cheapBuy/actions)|
-
-|.5|test cases exist  || dozens of tests and those test cases are more than 30% of the code base|
-|.5|Use of code coverage  || config files in GH|
-|.5|other automated analysis tools  || config files in GH|
-|.5|test cases:.a large proportion of the issues related to handling failing cases. || if a test case fails, open an issue and fix it|
-|.5|test cases are routinely executed || e.g. travis-com.com or github actions or something|
-|1|Documentation describing how this version improves on the older version|| 0|
+|.5|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code. |.5| Evidence in [Media](https://github.com/anshulp2912/cheapBuy/tree/main/media)|
+|.5|test cases exist  |.5| Evidence in [Test](https://github.com/anshulp2912/cheapBuy/tree/main/test)|
+|.5|Use of code coverage  |.5| in Github [Actions](https://github.com/anshulp2912/cheapBuy/actions)|
+|.5|other automated analysis tools  |.5| in Github [Actions](https://github.com/anshulp2912/cheapBuy/actions)|
+|.5|test cases:.a large proportion of the issues related to handling failing cases. |.5| Evidence in [RoadMap](https://github.com/anshulp2912/cheapBuy/projects/1)|
+|.5|test cases are routinely executed |.5| in Github [Actions](https://github.com/anshulp2912/cheapBuy/actions)|
+|1|Documentation describing how this version improves on the older version|1| in [Improvements](https://github.com/anshulp2912/cheapBuy/blob/main/docs/Improvements.md)|
 |3|This version is a little(1), some(2), much(3) improved on the last version.|| Tutor's assessment.|
 |16| Total|
