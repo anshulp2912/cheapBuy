@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/424457797.svg)](https://zenodo.org/badge/latestdoi/424457797)
-[![codecov](https://codecov.io/gh/het-patel99/cheapBuy/branch/main/graph/badge.svg?token=6D5N39DIO7)](https://codecov.io/gh/het-patel99/cheapBuy)
+[![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
 [![Build Status](https://app.travis-ci.com/anshulp2912/cheapBuy.svg?branch=main)](https://app.travis-ci.com/anshulp2912/cheapBuy)
 [![Python Style Checker](https://github.com/anshulp2912/cheapBuy/actions/workflows/style_checker.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/style_checker.yml)
 [![Run Tests On Push](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml)
