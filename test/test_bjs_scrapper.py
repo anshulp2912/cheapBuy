@@ -7,7 +7,7 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 
 import sys
 sys.path.append('../')
-from WebScrapper_Bjs import WebScrapper_Bjs
+from code.webscrappers.WebScrapper_Bjs import WebScrapper_Bjs
 
 def test_bjs_scrapper():
     
