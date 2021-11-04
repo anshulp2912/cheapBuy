@@ -1,11 +1,11 @@
 Score|Notes| Self-Assessment| Evidence|
 |-|-----|---------|--------|
-|.5| short release cycles|.5|Evidence in [Commit](https://github.com/rohan22shah/cheapBuy/commits/main)|
-|.5| workload is spread over the whole team (so one team member is often Xtimes more productive than the others...|.5|Evidence in [RoadMap](https://github.com/rohan22shah/cheapBuy/projects/1)|
-|.5|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing |.5| Evidence in [Readme](https://github.com/rohan22shah/cheapBuy/blob/main/README.md) |
-|.5|the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up  |.5 | Evidence in [Contributing](https://github.com/rohan22shah/cheapBuy/blob/main/CONTRIBUTING.md)|
-|.5|Docs: doco generated , format not ugly  |.5| Evidence in [Docs](https://github.com/rohan22shah/cheapBuy/tree/main/docs)|
-|.5|evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) || Evidence in [Requirements](https://github.com/rohan22shah/cheapBuy/blob/main/requirements.txt)|
+|.5| short release cycles|.5|Evidence in [Commit](https://github.com/anshulp2912/cheapBuy/commits/main)|
+|.5| workload is spread over the whole team (so one team member is often Xtimes more productive than the others...|.5|Evidence in [RoadMap](https://github.com/anshulp2912/cheapBuy/projects/1)|
+|.5|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing |.5| Evidence in [Readme](https://github.com/anshulp2912/cheapBuy/blob/main/README.md) |
+|.5|the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up  |.5 | Evidence in [Contributing](https://github.com/anshulp2912/cheapBuy/blob/main/CONTRIBUTING.md)|
+|.5|Docs: doco generated , format not ugly  |.5| Evidence in [Docs](https://github.com/anshulp2912/cheapBuy/tree/main/docs)|
+|.5|evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) |.5| Evidence in [Requirements](https://github.com/anshulp2912/cheapBuy/blob/main/requirements.txt)|
 |.5|evidence that the members of the team are working across multiple places in the code base |.5 |Evidence in [Commit](https://github.com/rohan22shah/cheapBuy/commits/main)|
 |1|Docs: what: point descriptions of each class/function (in isolation)  || Evidence in [Docs](https://github.com/rohan22shah/cheapBuy/tree/main/docs)|
 |.5|Number of commits: by different people  || in GH|
