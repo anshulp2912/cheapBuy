@@ -96,7 +96,7 @@ The project is deployed on both Streamlit cloud:
 
 ## 🛠️ Installation Steps <a name="ExecutionSteps"></a>
 
-1. Clone the github repository at the preferable location in your system. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
+1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
 ```
 git clone https://github.com/anshulp2912/cheapBuy.git
 cd cheapBuy
