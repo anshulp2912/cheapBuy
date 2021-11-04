@@ -7,7 +7,7 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 
 import sys
 sys.path.append('../')
-from code.web_scrappers.WebScrapper_Costco import WebScrapper_Costco
+from source.web_scrappers.WebScrapper_Costco import WebScrapper_Costco
 
 def test_costco_scrapper():
     
