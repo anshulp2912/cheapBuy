@@ -1,7 +1,6 @@
 """
 Copyright (c) 2021 Anshul Patel
 This code is licensed under MIT license (see LICENSE.MD for details)
-
 @author: cheapBuy
 """
 
@@ -9,6 +8,30 @@ from bs4 import BeautifulSoup
 import requests
 
 class FetchDescription():
+    """
+    A class used to fetch description by parsing the URL
+    
+    ...
+    Attributes
+    ----------
+    product_link : str
+        link of the product
+        
+    Methods
+    -------
+    fetch_desc_walmart:
+        Fetch description from Walmart
+    fetch_desc_amazon:
+        Fetch description from Amazon
+    fetch_desc_ebay:
+        Fetch description from Ebay
+    fetch_desc_bjs:
+        Fetch description from bjs
+    fetch_desc_costco:
+        Fetch description from Costco
+    """
+
+
     
     def __init__(self,product_link):
         self.product_link = product_link
