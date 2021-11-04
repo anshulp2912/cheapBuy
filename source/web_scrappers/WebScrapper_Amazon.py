@@ -44,7 +44,7 @@ class WebScrapper_Amazon(Thread):
     def get_driver(self):
         options = webdriver.ChromeOptions()
         options.add_argument('--no-sandbox')
-        driver = webdriver.Chrome(chrome_options=options, executable_path=ChromeDriverManager().install())
+        driver = webdriver.Chrome(chrome_options=options, executable_path=os.path.abspath('chromedriver'))
         return driver
     
     def get_url_amazon(self):
