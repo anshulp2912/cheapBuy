@@ -7,12 +7,12 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from web_scrappers.FetchDescription import FetchDescription
-from web_scrappers.WebScrapper_Amazon import WebScrapper_Amazon
-from web_scrappers.WebScrapper_Bjs import WebScrapper_Bjs
-from web_scrappers.WebScrapper_Ebay import WebScrapper_Ebay
-from web_scrappers.WebScrapper_Costco import WebScrapper_Costco
-from web_scrappers.WebScrapper_Walmart import WebScrapper_Walmart
+from source.web_scrappers.FetchDescription import FetchDescription
+from source.web_scrappers.WebScrapper_Amazon import WebScrapper_Amazon
+from source.web_scrappers.WebScrapper_Bjs import WebScrapper_Bjs
+from source.web_scrappers.WebScrapper_Ebay import WebScrapper_Ebay
+from source.web_scrappers.WebScrapper_Costco import WebScrapper_Costco
+from source.web_scrappers.WebScrapper_Walmart import WebScrapper_Walmart
 
 class WebScrapper:
     
