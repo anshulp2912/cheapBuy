@@ -7,7 +7,7 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 
 import sys
 sys.path.append('../')
-from code.web_scrappers.WebScrapper_Ebay import WebScrapper_Ebay
+from source.web_scrappers.WebScrapper_Ebay import WebScrapper_Ebay
 
 def test_ebay_scrapper():
     
