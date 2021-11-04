@@ -15,7 +15,4 @@ def test_costco_scrapper():
     t = WebScrapper_Costco(description)
     t.start()
     t.join()
-    assert t.result == {'description': 'Brita Replacement Filters, 10-pack\n\t\t\t',
-     'url': 'https://tinyurl.com/yfznxg8z',
-     'price': '$39.99',
-     'site': 'costco'}
+    assert t.result is not None
