@@ -6,6 +6,8 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 """
 
 # Import Libraries
+import sys
+sys.path.append('../')
 import streamlit as st
 import os
 from source.web_scrappers.WebScrapper import WebScrapper
