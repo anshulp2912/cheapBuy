@@ -1,43 +1,70 @@
-cheapBuy Phase 2 - Improved Version<br><br>
-Motivation:<br><br>
+# cheapBuy Phase 2 - Improved Version<br><br>
+**Motivation:**<br><br>
 cheapBuy Extension provides you ease to buy any product through your favourite websites like Amazon, Walmart, Ebay, Bjs, Costco, etc, by providing prices of the same product from all different websites. It takes a lot of time to search for the same product in different websites, and find the cheapest one, instead just add our extension cheapBuy and it will automatically fetch you price of the same product from different websites and you can directly compare the prices from different websites through our extension. In sum, cheapBuy is a one stop solution to buy the cheapest product online.
 <br><br>
-Features - Price Comparison, Get alternative websites for the products, highlights cheapest product.
+**Features** - Price Comparison, Get alternative websites for the products, highlights cheapest product.
 <br><br>
-Which users use this?
+**Which users use this?**
 Everyone who buys products online from famous online websites can use this to compare prices for any product they wish to buy.
 <br><br>
-Steps for Execution:
+**Steps for Execution:**
 <br><br>
-Code Functionalities:
+**Code Functionalities:**
 <br><br>
-1. web_scraper.py 
-○ function get_driver(): Returns a chrome instance using the Selenium webdriver. 
-○ function scrapper(link): Checks which ecommerce platform the link(parameter of function) belongs to and searches for details of similar products on amazon and ebay. Details include description, price and url. This function returns these details as a dictionary. 
+**web_scrappers**
+1. **FetchDescription.py**
 <br><br>
-2. web_scrapper_amazon.py 
-○ function get_url_amazon(search_term): This function returns the Amazon url of the product (search_term) given as an argument. 
-○ function scrap_amazon(driver, search_term) Webpage of the product corresponding to search_term is retrieved using BeautifulSoup and Selenium chrome web driver. 
-○ function extract_item_amazon(driver, search_term) Extracts the product description, price , URL and website name (“Amazon”) best corresponding to search_term and returns it through a dictionary variable.
-<br><br> 
-3. web_scrapper_bjs.py 
-○ function get_url_bjs(search_term) This function returns the url corresponding to the BJS website for the product (search_term) given as an argument. 
-○ function scrap_bjs(driver, search_term) Webpage of the product corresponding to search_term is retrieved using BeautifulSoup and Selenium chrome web driver. 
-○ function extract_item_bjs(driver, search_term) Extracts the product description, price , URL and website name (“BJS”) best corresponding to search_term and returns it through a dictionary variable. 
-<br><br>
-4. web_scrapper_ebay.py 
-○ function get_url_ebay(search_term) This function returns the url corresponding to the eBay website for the product (search_term) given as an argument. 
-○ function scrap_ebay(driver, search_term) Webpage of the product corresponding to search_term is retrieved using BeautifulSoup and Selenium chrome web driver. 
-○ function extract_item_ebay(driver, search_term) Extracts the product description, price , URL and website name (“EBay”) best corresponding to search_term and returns it through a dictionary variable.
-<br><br> 
-5. web_scrapper_walmart.py 
-○ function get_url_walmart(search_term) This function returns the url corresponding to the walmart website for the product (search_term) given as an argument. 
-○ function scrap_walmart(driver, search_term) Webpage of the product corresponding to search_term is retrieved using BeautifulSoup and Selenium chrome web driver. 
-○ function extract_item_walmart(driver, search_term) Extracts the product description, price , URL and website name (“Walmart”) best corresponding to search_term and returns it through a dictionary variable.
-<br><br>
-6. WebScrapper_Costco.py
-<br><br>
-7. FetchDescription.py
+* function fetch_desc_walmart():The function fetch_desc_walmart fetches description from the incoming walmart URL.<br>
+* function fetch_desc_amazon(): The function fetch_desc_amazon fetches description from the incoming amazon URL.<br>
+* function fetch_desc_ebay(): The function fetch_desc_ebay fetches description from the incoming ebay URL.<br>
+* function fetch_desc_costco(): The function fetch_desc_costco fetches description from the incoming costco URL.<br>
+* function fetch_desc_bjs(): The function fetch_desc_bjs fetches description from the incoming bjs URL.<br>
 <br><br><br>
+2. **WebScrapper.py**
+* function get_description(): The function get_description checks website of incoming URL and calls the respective website function to fetch the description.<br>
+* function call_scrapper(): The function call_scrapper utilizes threads to call scrapper functions for all 5 websites and get the final result.<br><br>
+3. **WebScrapper_Amazon.py** <br><br>
+* function run(): The function run is executed when the thread is started. It gets result from function scrap_amazon and extracts output in desired format from the result<br>
+* function get_driver(): The function get_driver prepares and returns a Chrome driver using Selenium.<br>
+* function get_url_amazon(): The function get_url_amazon prepares a URL for Amazon scraping from description.<br>
+* function scrap_amazon(): The function scrap_amazon performs web scraping using BeautifulSoup on the URL provided by function get_url_amazon.
+<br><br> 
+4. **WebScrapper_Bjs.py** <br><br>
+* function run(): The function run is executed when the thread is started. It gets the result from the function scrap_bjs and extracts output in the desired format from the result.<br>
+* function get_driver(): The function get_driver prepares and returns a Chrome driver using Selenium.<br>
+* function get_url_bjs(): The function get_url_bjs prepares a URL for Bjs scraping from description.<br>
+* function scrap_bjs(): The function scrap_bjs performs web scraping using BeautifulSoup on the URL provided by function get_url_bjs.<br>
+ 
+<br><br>
+5. **WebScrapper_Costco.py**<br><br>
+* function run(): The function run is executed when the thread is started. It gets the result from the function scrap_costco and extracts output in the desired format from the result.<br>
+* function get_driver(): The function get_driver prepares and returns a Chrome driver using Selenium.<br>
+* function get_url_costco(): The function get_url_costco prepares a URL for Costco scraping from description.<br>
+* function scrap_costco(): The function scrap_costco performs web scraping using BeautifulSoup on the URL provided by function get_url_costco.
 
+<br><br> 
+6. **WebScrapper_Ebay.py** <br><br>
+* function run(): The function run is executed when the thread is started. It gets the result from the function scrap_ebay and extracts output in the desired format from the result.<br>
+* function get_driver(): The function get_driver prepares and returns a Chrome driver using Selenium.<br>
+* function get_url_ebay(): The function get_url_ebay prepares a URL for Ebay scraping from description.<br>
+* function scrap_ebay(): The function scrap_ebay performs web scraping using BeautifulSoup on the URL provided by function get_url_ebay.
 
+<br><br>
+7. **WebScrapper_Walmart.py** <br><br>
+* function run(): The function run is executed when the thread is started. It gets the result from the function scrap_walmart and extracts output in the desired format from the result<br>
+* function get_driver(): The function get_driver prepares and returns a Chrome driver using Selenium.<br>
+* function get_url_walmart(): The function get_url_walmart prepares a URL for Walmart scrapping from description<br>
+* function scrap_walmart(): The function scrap_walmart performs web scraping using BeautifulSoup on the URL provided by function get_url_walmart.<br>
+<br><br>
+
+**extension**
+1. **index.html**<br>
+Default page of an extension that opens when the extension is clicked.<br><br>
+2. **main.css**<br>
+This cascading style sheet (CSS) file provides format and style for the contents of the extension display.<br><br>
+3. **manifest.json**<br>
+Config file of an extension that provides important information regarding the extension.<br><br>
+4. **popup.js**<br>
+This popup.js file fetches the url of the current tab and passes it to the server. The response is generated from the server which fetches the same product from different websites and displays it on the extension.<br><br>
+5. **robot.txt**<br>
+A robots.txt file tells search engine crawlers which URLs the crawler can access on your site.<br><br>
