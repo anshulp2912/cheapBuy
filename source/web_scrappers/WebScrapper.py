@@ -5,6 +5,7 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 @author: cheapBuy
 """
 
+#Import libraries
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from source.web_scrappers.FetchDescription import FetchDescription
