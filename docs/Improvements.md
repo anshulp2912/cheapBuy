@@ -4,7 +4,9 @@ Following are the improvements made in Phase 2 of the project:
 <br><br>
 1. Add web scraping for other websites:<br>
 Phase 1: In the first version of the project, the comparison for any product was only provided from two websites (Amazon and ebay).
-<br><br>
+<br>
+<img src = https://github.com/anshulp2912/cheapBuy/blob/main/media/Phase1-extoutput.png>
+<br>
 Phase 2: In Phase 2, comparison for any product is provided from five different websites (Amazon, ebay, Walmart, bjs, Costco).
 <br><br><br>
 2. Highlight the cheapest option:
