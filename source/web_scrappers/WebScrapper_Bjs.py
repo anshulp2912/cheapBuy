@@ -12,7 +12,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 import sys
 sys.path.append('../')
-from utils.url_shortener import shorten_url
+from source.utils.url_shortener import shorten_url
 
 class WebScrapper_Bjs(Thread):
     
