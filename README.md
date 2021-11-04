@@ -86,7 +86,7 @@
 The project is deployed on both Streamlit cloud:
 - [Streamlit](https://share.streamlit.io/anshulp2912/cheapbuy/main/cheapBuy_user_interface.py)
 
-## 🛠️ Installation Steps <a name="ExecutionSteps"></a>
+## 🛠️ Steps of Execution <a name="ExecutionSteps"></a>
 
 1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
 ```
