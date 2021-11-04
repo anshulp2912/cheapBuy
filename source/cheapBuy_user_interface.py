@@ -26,7 +26,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 # Display Image
-st.image("media/logo/cheapBuy_Banner.gif")
+st.image("images/cheapBuy_Banner.gif")
 
 st.write("cheapBuy provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Bjs, Costco, etc, by providing prices of the same product from all different websites")
 url = st.text_input('Enter the product website link')
