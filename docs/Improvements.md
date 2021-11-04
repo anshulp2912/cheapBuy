@@ -13,7 +13,8 @@ Phase 2: In Phase 2, comparison for any product is provided from five different 
 <br><br>
 Phase 1: In the previous version, the extension showed only the available options but did not highlight the cheapest option.
 <br><br>
-Phase 2: In the updated version, the cheapest option among the available options is highlighted in the output given in the website.
+Phase 2: In the updated version, the cheapest option among the available options is highlighted in the output given in the website. <br>
+<img src = "https://github.com/anshulp2912/cheapBuy/blob/main/media/highlight.jpeg"> <br>
 <br><br><br>
 3. Multithreading:
 <br><br>
