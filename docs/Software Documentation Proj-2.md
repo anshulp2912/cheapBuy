@@ -6,4 +6,6 @@ Features - Price Comparison, Get alternative websites for the products, highligh
 <br><br>
 Which users use this?
 Everyone who buys products online from famous online websites can use this to compare prices for any product they wish to buy.
-
+<br><br>
+Steps for Execution:
+<br><br><br>
