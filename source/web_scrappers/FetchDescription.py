@@ -34,11 +34,22 @@ class FetchDescription():
 
     
     def __init__(self,product_link):
+        """
+        Parameters
+        ----------
+        product_link : str
+            link of the product
+        """
+        #Initialize class variables
         self.product_link = product_link
     
     def fetch_desc_walmart(self):
+        """ 
+        Fetch description from Walmart
+        """
         description = ''
         try:
+        	#Extract description from URL for walmart
             link = self.product_link.replace("https://www.walmart.com/ip/","")
             for ch in link:
                 if(ch!="/"):
