@@ -52,6 +52,9 @@
  <img src="https://github.com/anshulp2912/cheapBuy/blob/main/media/cheapBuy_Banner.gif" />
 </h1>
 
+[Watch the demo here](https://github.com/anshulp2912/cheapBuy/blob/main/media/streamlit-cheapBuy_user_interface-Colgate_Walmart.webm)
+
+
 <h1 align="center">
   cheapBuy
 </h1>
