@@ -53,6 +53,9 @@ class WebScrapper_Costco(Thread):
         super(WebScrapper_Costco,self).__init__()
        
     def run(self):
+        """ 
+        Returns final result
+        """
         self.result={}
         try:
             results = self.scrap_costco()
@@ -72,17 +75,26 @@ class WebScrapper_Costco(Thread):
             self.result={}
             
     def get_driver(self):
+        """ 
+        Returns Chrome Driver
+        """
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
         return driver
     
     def get_url_costco(self):
+        """ 
+        Returns costco URL
+        """
         template = "https://www.costco.com"+"/CatalogSearch?dept=All&keyword={}"
         search_term = self.description.replace(' ','+')
         return template.format(search_term)
 
     def scrap_costco(self):
+        """ 
+        Returns Scraped result
+        """
         url = self.get_url_costco()
         self.driver.get(url)
         soup = BeautifulSoup(self.driver.page_source,"html.parser")
