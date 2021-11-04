@@ -12,6 +12,8 @@ sudo: required
 addons:
   chrome: stable
 before_script:
+  - export CHROME_BIN=/usr/bin/google-chrome
+  - sudo apt-get update
   - wget -N https://chromedriver.storage.googleapis.com/95.0.4638.54/chromedriver_linux64.zip -P ~/
   - unzip ~/chromedriver_linux64.zip -d ~/
   - rm ~/chromedriver_linux64.zip
