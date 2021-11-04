@@ -1,1 +1,1 @@
-<a href="https://zenodo.org/badge/latestdoi/409664226"><img src="https://zenodo.org/badge/409664226.svg" alt="DOI"></a>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645496.svg)](https://doi.org/10.5281/zenodo.5645496)
