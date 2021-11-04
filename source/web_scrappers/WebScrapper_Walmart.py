@@ -5,17 +5,40 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 @author: cheapBuy
 """
 
+#Import libraries
 from bs4 import BeautifulSoup
 from threading import Thread
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-
-import sys
-sys.path.append('../')
 from source.utils.url_shortener import shorten_url
 
+#Set working directory path
+import sys
+sys.path.append('../')
+
+
 class WebScrapper_Walmart(Thread):
+    """
+    Main class used to scrape results from Walmart
     
+    ...
+
+    Attributes
+    ----------
+    description : str
+        description of the product
+        
+    Methods
+    -------
+    run:
+        Threaded method to execute subclasses
+    get_driver:
+        Returns Chrome Driver
+    get_url_walmart:
+        Returns walmart URL
+    scrap_walmart:
+        Returns Scraped result
+    """
     def __init__(self,description):
         self.driver = self.get_driver()
         self.description = description
