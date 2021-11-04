@@ -7,7 +7,7 @@ Created on Wed Nov  3 23:52:22 2021
 
 import sys
 sys.path.append('../')
-from code.web_scrappers.FetchDescription import FetchDescription
+from source.web_scrappers.FetchDescription import FetchDescription
     
 def test_fetch_description_walmart():
     link = "https://www.walmart.com/ip/Brita-Longlast-Water-Filter-Replacement-Reduces-Lead-2-Count/128876038"

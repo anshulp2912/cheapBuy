@@ -4,7 +4,8 @@ Created on Thu Nov  4 00:27:27 2021
 
 @author: Rohan Shah
 """
-
+import sys
+sys.path.append('../')
 from source.utils.url_shortener import shorten_url
 
 def test_url_shortener():
