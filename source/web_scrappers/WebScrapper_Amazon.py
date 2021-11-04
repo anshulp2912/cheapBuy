@@ -5,14 +5,17 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 @author: cheapBuy
 """
 
+#Import libraries
 from bs4 import BeautifulSoup
 from threading import Thread
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+from source.utils.url_shortener import shorten_url
 
+#Set working directory path
 import sys
 sys.path.append('../')
-from source.utils.url_shortener import shorten_url
+
 
 class WebScrapper_Amazon(Thread):
     
