@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from threading import Thread
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 
 import sys
 sys.path.append('../')
@@ -42,9 +43,9 @@ class WebScrapper_Amazon(Thread):
             self.result={}
 
     def get_driver(self):
-        options = webdriver.ChromeOptions()
-        options.add_argument('--no-sandbox')
-        driver = webdriver.Chrome(chrome_options=options, executable_path=ChromeDriverManager().install())
+        #options = webdriver.ChromeOptions()
+        #options.add_argument('--no-sandbox')
+        driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
         return driver
     
     def get_url_amazon(self):
