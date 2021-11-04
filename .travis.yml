@@ -3,11 +3,13 @@ language: python
 python:
   - "3.6"
   - "3.7"
+before_install:
+  - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 install:
   - pip install -r requirements.txt
 before_script:
   - wget http://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_linux64.zip
-  - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python2.7.12/bin/
+  - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python2.7.12/
   - export CHROME_BIN=chromium-browser
 script:
   - cd test 
