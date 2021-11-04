@@ -40,31 +40,49 @@ class WebScrapper_Walmart(Thread):
         Returns Scraped result
     """
     def __init__(self,description):
+        """
+        Parameters
+        ----------
+        description : str
+            description of the product
+        """
+    	#Initialize class variables
         self.driver = self.get_driver()
         self.description = description
         self.result = {}
         super(WebScrapper_Walmart,self).__init__()
         
     def run(self):
+        """ 
+        Returns final result
+        """
         self.result={}
         try:
+        	#Get results from scrapping function
             results = self.scrap_walmart()
+            #Condition to check whether results are avialable or not
             if len(results) == 0:
                 self.result = {} 
                 print('Walmart_results empty')
             else:
                 item=results[0]
+                #Find teh atag containing our required item
                 atag = item.find("a",{"class":"absolute w-100 h-100 z-1"})
+                #Extract description from the atag
                 self.result['description'] = (atag.find("span",{"class":"w_DJ"})).text
+                #Get the URL for the page and shorten it
                 self.result['url'] = shorten_url(self.result['url'])
                 self.result['url'] = atag.get('href')
+                #Find the parent div containging price of the item
                 parent_price= item.find("div",{"class":"flex flex-wrap justify-start items-center lh-title mb2 mb1-m"})
+                #Find the price of the item
                 self.result['price'] = parent_price.find("div", {"class":"b black f5 mr1 mr2-xl lh-copy f4-l"}).text
+                #Assign the site as walmart to result
                 self.result['site'] = 'walmart'
         except:
             print('Walmart_results exception')
             self.result = {}
-            
+             
     def get_driver(self):
         options = webdriver.ChromeOptions()
         options.headless = True
