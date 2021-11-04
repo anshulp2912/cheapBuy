@@ -15,8 +15,35 @@ sys.path.append('../')
 from source.utils.url_shortener import shorten_url
 
 class WebScrapper_Costco(Thread):
+    """
+    Main class used to scrape results from Costco
+    
+    ...
+
+    Attributes
+    ----------
+    description : str
+        description of the product
+        
+    Methods
+    -------
+    run:
+        Threaded method to execute subclasses
+    get_driver:
+        Returns Chrome Driver
+    get_url_costco:
+        Returns costco URL
+    scrap_costco:
+        Returns Scraped result
+    """
     
     def __init__(self,description):
+        """
+        Parameters
+        ----------
+        description : str
+            description of the product
+        """
         self.driver = self.get_driver()
         if len(description)<5:
             self.description = description
@@ -24,7 +51,7 @@ class WebScrapper_Costco(Thread):
             self.description = ' '.join(description.split()[:5])
         self.result = {}
         super(WebScrapper_Costco,self).__init__()
-        
+       
     def run(self):
         self.result={}
         try:
