@@ -12,6 +12,7 @@
 <!--Badges-->
 <a href="https://github.com/anshulp2912/cheapBuy/blob/main/LICENSE" target="blank">
 <img src="https://img.shields.io/github/license/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy license" />
+    
 </a>
 <a href="https://github.com/anshulp2912/cheapBuy/fork" target="blank">
 <img src="https://img.shields.io/github/forks/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy forks"/>
@@ -87,6 +88,7 @@
 ## 🧐 Features <a name="Features"></a>
 - **Price Comparison**
 - **Get alternative website for the product**
+- **Highlight Cheapest product**
 
 ## 🚀 Demo <a name="Demo"></a>
 The project is deployed on both Streamlit cloud:
