@@ -1,9 +1,10 @@
-# -*- coding: utf-8 -*-
 """
-Created on Thu Nov  4 00:27:27 2021
+Copyright (c) 2021 Anshul Patel
+This code is licensed under MIT license (see LICENSE.MD for details)
 
-@author: Rohan Shah
+@author: cheapBuy
 """
+
 import sys
 sys.path.append('../')
 from source.utils.url_shortener import shorten_url
