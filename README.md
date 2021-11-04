@@ -30,17 +30,11 @@
 <img src="https://img.shields.io/github/issues-pr/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy pull-requests"/>
 </a>
 
-<a href="https://github.com/anshulp2912/cheapBuy/graphs/contributors" alt="Contributors">
-<img src="https://img.shields.io/github/contributors/anshulp2912cheapBuy" /></a>
-
 <a href="https://github.com/anshulp2912/cheapBuy/milestones" alt="milestones">
 <img src="https://img.shields.io/github/milestones/all/anshulp2912/cheapBuy" /></a> 
 
 <a href="https://github.com/anshulp2912/cheapBuy/graphs/commit-activity" alt="commit activity">
 <img src="https://img.shields.io/github/commit-activity/w/anshulp2912/cheapBuy" /></a> 
-
-<a href="https://github.com/anshulp2912/cheapBuy/discussions" alt="discussion">
-<img src="https://img.shields.io/github/discussions/anshulp2912cheapBuy" /></a> 
 
 <a href="https://img.shields.io/github/repo-size/anshulp2912/cheapBuy" alt="repo size">
 <img src="https://img.shields.io/github/repo-size/anshulp2912/cheapBuy" /></a>
