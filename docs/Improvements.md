@@ -30,7 +30,9 @@ Phase 2: A UI interface is created for the cheapBuy project. Used Streamlit to c
 5. Chrome Extension Enhancements:<br><br>
 Phase 1: Chrome Extension worked only on three specific products but did not work for other products from the same website.<br><br>
 Phase 2: Chrome Extension works for any input product given from any of the five websites and the comparison will be given from the five websites we targeted (Amazon, ebay, Costco, bjs, Walmart).
-<br><br> The below screenshot shows the chrome extension working - [Extension](url)
+<br><br> The below screenshot shows the chrome extension working - 
+<img src = "https://github.com/anshulp2912/cheapBuy/blob/main/media/CheapBuy_Extension.PNG">
+
 <br><br><br>
 6. Improve accuracy of the product:<br><br>
 Phase 1: In phase 1, for a given input url of a product, available options on two websites are given. But the accuracy of the output is less. It does not search and give the same product from the other websites.<br><br>
