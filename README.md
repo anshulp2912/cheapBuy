@@ -38,8 +38,7 @@
 <a href="https://img.shields.io/github/repo-size/anshulp2912/cheapBuy" alt="repo size">
 <img src="https://img.shields.io/github/repo-size/anshulp2912/cheapBuy" /></a>
 
-<a href="https://img.shields.io/tokei/lines/github/anshulp2912/cheapBuy" alt="total lines">
-<img src="https://img.shields.io/tokei/lines/github/anshulp2912/cheapBuy" /></a> 
+![Lines of code](https://img.shields.io/tokei/lines/github/anshulp2912/cheapBuy)
 
 
 <p align="center">
