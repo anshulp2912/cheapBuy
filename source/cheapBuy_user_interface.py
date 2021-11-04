@@ -10,7 +10,7 @@ import sys
 sys.path.append('../')
 import streamlit as st
 import os
-from source.web_scrappers.WebScrapper import WebScrapper
+from web_scrappers.WebScrapper import WebScrapper
 import pandas as pd
 from link_button import link_button
 
