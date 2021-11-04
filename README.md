@@ -7,53 +7,53 @@
 ![github workflow](https://github.com/het-patel99/cheapBuy/actions/workflows/code_cov.yml/badge.svg)
 ![github workflow](https://github.com/het-patel99/cheapBuy/actions/workflows/close_as_a_feature.yml/badge.svg)
 <!--Badges-->
-<a href="https://github.com/rohan22shah/cheapBuy/blob/master/LICENSE" target="blank">
-<img src="https://img.shields.io/github/license/rohan22shah/cheapBuy?style=flat-square" alt="cheapBuy license" />
+<a href="https://github.com/anshulp2912/cheapBuy/blob/main/LICENSE" target="blank">
+<img src="https://img.shields.io/github/license/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy license" />
 </a>
-<a href="https://github.com/rohan22shah/cheapBuy/fork" target="blank">
-<img src="https://img.shields.io/github/forks/rohan22shah/cheapBuy?style=flat-square" alt="cheapBuy forks"/>
+<a href="https://github.com/anshulp2912/cheapBuy/fork" target="blank">
+<img src="https://img.shields.io/github/forks/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy forks"/>
 </a>
-<a href="https://github.com/rohan22shah/cheapBuy/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/rohan22shah/cheapBuy?style=flat-square" alt="gcheapBuy stars"/>
+<a href="https://github.com/anshulp2912/cheapBuy/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/anshulp2912/cheapBuy?style=flat-square" alt="gcheapBuy stars"/>
 </a>
-<a href="https://github.com/rohan22shah/cheapBuy/issues" target="blank">
-<img src="https://img.shields.io/github/issues/rohan22shah/cheapBuy?style=flat-square" alt="cheapBuy issues"/>
+<a href="https://github.com/anshulp2912/cheapBuy/issues" target="blank">
+<img src="https://img.shields.io/github/issues/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy issues"/>
 </a>
-<a href="https://github.com/rohan22shah/cheapBuy/issues" target="blank">
-<img src="https://img.shields.io/github/issues-closed/rohan22shah/cheapBuy" alt="cheapBuy issues closed"/>
+<a href="https://github.com/anshulp2912/cheapBuy/issues" target="blank">
+<img src="https://img.shields.io/github/issues-closed/anshulp2912/cheapBuy" alt="cheapBuy issues closed"/>
 </a>
-<a href="https://github.com/rohan22shah/cheapBuy/pulls" target="blank">
-<img src="https://img.shields.io/github/issues-pr/rohan22shah/cheapBuy?style=flat-square" alt="cheapBuy pull-requests"/>
+<a href="https://github.com/anshulp2912/cheapBuy/pulls" target="blank">
+<img src="https://img.shields.io/github/issues-pr/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy pull-requests"/>
 </a>
 
-<a href="https://github.com/rohan22shah/cheapBuy/graphs/contributors" alt="Contributors">
-<img src="https://img.shields.io/github/contributors/rohan22shah/cheapBuy" /></a>
+<a href="https://github.com/anshulp2912/cheapBuy/graphs/contributors" alt="Contributors">
+<img src="https://img.shields.io/github/contributors/anshulp2912cheapBuy" /></a>
 
-<a href="https://github.com/rohan22shah/cheapBuy/milestones" alt="milestones">
-<img src="https://img.shields.io/github/milestones/all/rohan22shah/cheapBuy" /></a> 
+<a href="https://github.com/anshulp2912/cheapBuy/milestones" alt="milestones">
+<img src="https://img.shields.io/github/milestones/all/anshulp2912/cheapBuy" /></a> 
 
-<a href="https://github.com/rohan22shah/cheapBuy/graphs/commit-activity" alt="commit activity">
-<img src="https://img.shields.io/github/commit-activity/w/rohan22shah/cheapBuy" /></a> 
+<a href="https://github.com/anshulp2912/cheapBuy/graphs/commit-activity" alt="commit activity">
+<img src="https://img.shields.io/github/commit-activity/w/anshulp2912/cheapBuy" /></a> 
 
-<a href="https://github.com/rohan22shah/cheapBuy/discussions" alt="discussion">
-<img src="https://img.shields.io/github/discussions/rohan22shah/cheapBuy" /></a> 
+<a href="https://github.com/anshulp2912/cheapBuy/discussions" alt="discussion">
+<img src="https://img.shields.io/github/discussions/anshulp2912cheapBuy" /></a> 
 
-<a href="https://img.shields.io/github/repo-size/rohan22shah/cheapBuy" alt="repo size">
-<img src="https://img.shields.io/github/repo-size/rohan22shah/cheapBuy" /></a>
+<a href="https://img.shields.io/github/repo-size/anshulp2912/cheapBuy" alt="repo size">
+<img src="https://img.shields.io/github/repo-size/anshulp2912/cheapBuy" /></a>
 
-<a href="https://img.shields.io/tokei/lines/github/rohan22shah/cheapBuy" alt="total lines">
-<img src="https://img.shields.io/tokei/lines/github/rohan22shah/cheapBuy" /></a> 
+<a href="https://img.shields.io/tokei/lines/github/anshulp2912/cheapBuy" alt="total lines">
+<img src="https://img.shields.io/tokei/lines/github/anshulp2912/cheapBuy" /></a> 
 
 
 <p align="center">
-    <a href="https://github.com/rohan22shah/cheapBuy/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/anshulp2912/cheapBuy/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/rohan22shah/cheapBuy/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/anshulp2912/cheapBuy/issues/new/choose">Request Feature</a>
 </p>
 
 
 <h1 align="center">
- <img src="https://github.com/rohan22shah/se-phase-2/blob/main/source/WebscrapperMT/media/logo/cheapBuy_Banner.gif" />
+ <img src="https://github.com/anshulp2912/cheapBuy/blob/main/media/cheapBuy_Banner.gif" />
 </h1>
 
 <h1 align="center">
@@ -78,7 +78,7 @@
 
 **cheapBuy Extension** provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Bjs, Costco, etc, by providing prices of the same product from all different websites to extension. It takes lot of time to search for the same product in different websites, and find the cheapest one, instead just add our extension **cheapBuy** and it will automatically fetch you price of the same product from different websites and you can directly compare the prices from different websites through our extension. In sum, **cheapBuy** is an one stop solution to buy the cheapest product online.
 <h2 align="center">
- <img src="https://github.com/rohan22shah/se-phase-2/blob/main/media/Drake_BF_meme.gif" width="500"/>
+ <img src="https://github.com/anshulp2912/cheapBuy/blob/main/media/Drake_BF_meme.gif" width="500"/>
 </h2>
 
 ## 🧐 Features <a name="Features"></a>
@@ -93,7 +93,7 @@ The project is deployed on both Streamlit cloud:
 
 1. Clone the github repository at the preferable location in your system. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
 ```
-git clone https://github.com/rohan22shah/cheapBuy.git
+git clone https://github.com/anshulp2912/cheapBuy.git
 cd cheapBuy
 ```
 2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of those.
@@ -150,10 +150,10 @@ pip install -r requirements.txt
 🌟 You are all set! 🌟
 
 ## 📝 License <a name="License"></a>
-This project is licensed under the terms of the MIT license. Please check [License](https://github.com/rohan22shah/cheapBuy/blob/main/LICENSE) for more details.
+This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/cheapBuy/blob/main/LICENSE) for more details.
 
 ## 🍰 Contributing <a name="Contributing"></a>
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/rohan22shah/cheapBuy/compare).
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/anshulp2912/cheapBuy/compare).
 
 Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
