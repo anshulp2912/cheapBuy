@@ -1,3 +1,7 @@
+body, p {
+	overflow-y: scroll
+}
+
 #acho {
     display: block;
     margin-left: 35px;

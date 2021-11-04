@@ -1,22 +1,21 @@
 {
-    "name": "cheapBuy",
-    "permissions": [
-        "tabs"
-    ],
-    "manifest_version":2,
-    "description":"This cheapBuy extension provided price comparison from different e-commerce websites like Amazon, walmart, eBay, etc. cheapBuy extension recommends the cheapest rate of every product by comparing prices from all different e-commerce websites.",
-    "version": "1.0.0",
-    "icons":{
-        "16":"images/cheapbuy.png",
-        "48":"images/cheapbuy.png",
-        "128":"images/cheapbuy.png"
-    },
-    "browser_action":{
-        "default_popup": "index.html",
-        "default_icon":{
-            "16":"images/cheapbuy.png",
-            "48":"images/cheapbuy.png",
-            "128":"images/cheapbuy.png"
-        }
-    }
+  "manifest_version": 2,
+
+  "name": "CheapBuy Chrome Plugin",
+  "description": "This extension gets you prices from all major e-commerce platforms.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon":{
+            "16":"icon.png",
+            "48":"icon.png",
+            "128":"icon.png"
+        },
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "content_security_policy": "script-src 'self' https://code.jquery.com/jquery-1.7.1.min.js; object-src 'self'"
 }
