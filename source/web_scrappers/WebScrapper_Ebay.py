@@ -15,14 +15,44 @@ sys.path.append('../')
 from source.utils.url_shortener import shorten_url
 
 class WebScrapper_Ebay(Thread):
+    """
+    Main class used to scrape results from Ebay
+    
+    ...
+
+    Attributes
+    ----------
+    description : str
+        description of the product
+        
+    Methods
+    -------
+    run:
+        Threaded method to execute subclasses
+    get_driver:
+        Returns Chrome Driver
+    get_url_ebay:
+        Returns ebay URL
+    scrap_ebay:
+        Returns Scraped result
+    """
     
     def __init__(self,description):
+        """
+        Parameters
+        ----------
+        description : str
+            description of the product
+        """
         self.driver = self.get_driver()
         self.description = description
         self.result = {}
         super(WebScrapper_Ebay,self).__init__()
         
     def run(self):
+        """ 
+        Returns final result
+        """
         self.result={}
         try:
             results = self.scrap_ebay()
