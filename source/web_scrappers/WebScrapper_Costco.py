@@ -46,7 +46,7 @@ class WebScrapper_Costco(Thread):
             
     def get_driver(self):
         options = webdriver.ChromeOptions()
-        #options.headless = True
+        options.headless = True
         driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
         return driver
     
