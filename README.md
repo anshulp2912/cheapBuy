@@ -84,7 +84,7 @@
 
 ## 🚀 Demo <a name="Demo"></a>
 The project is deployed on both Streamlit cloud:
-- [Streamlit](https://share.streamlit.io/anshulp2912/scrivener/main/source/scrivener_user_interface.py)
+- [Streamlit](https://share.streamlit.io/anshulp2912/cheapbuy/main/cheapBuy_user_interface.py)
 
 ## 🛠️ Installation Steps <a name="ExecutionSteps"></a>
 
@@ -97,7 +97,11 @@ cd cheapBuy
 ```
 pip install -r requirements.txt
 ```
-3. Check out the demo video to know about the use of the extension in the media files.
+3. Check out the demo video to know about the use of the website in the media files.
+4. To locally run the streamlit website, we would recommend setting up an Anaconda Environment and running the command
+```
+streamlit run cheapBuy_user_interface.py
+```
 
 ## 📅 Plan of Action <a name="PlanofAction"></a>
 ### PHASE-1✅ <a name="Phase1"></a>
