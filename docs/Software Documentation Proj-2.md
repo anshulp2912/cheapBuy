@@ -9,6 +9,20 @@ Everyone who buys products online from famous online websites can use this to co
 <br><br>
 **Steps for Execution:**
 <br><br>
+1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
+```
+git clone https://github.com/anshulp2912/cheapBuy.git
+cd cheapBuy
+```
+2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of the requirements.
+```
+pip install -r requirements.txt
+```
+3. Check out the demo video to know about the use of the website in the media files.
+4. To locally run the streamlit website, we would recommend setting up an Anaconda Environment and running the command
+```
+streamlit run cheapBuy_user_interface.py
+```
 **Code Functionalities:**
 <br><br>
 **web_scrappers**
@@ -34,21 +48,18 @@ Everyone who buys products online from famous online websites can use this to co
 * function get_driver(): The function get_driver prepares and returns a Chrome driver using Selenium.<br>
 * function get_url_bjs(): The function get_url_bjs prepares a URL for Bjs scraping from description.<br>
 * function scrap_bjs(): The function scrap_bjs performs web scraping using BeautifulSoup on the URL provided by function get_url_bjs.<br>
- 
 <br><br>
 5. **WebScrapper_Costco.py**<br><br>
 * function run(): The function run is executed when the thread is started. It gets the result from the function scrap_costco and extracts output in the desired format from the result.<br>
 * function get_driver(): The function get_driver prepares and returns a Chrome driver using Selenium.<br>
 * function get_url_costco(): The function get_url_costco prepares a URL for Costco scraping from description.<br>
 * function scrap_costco(): The function scrap_costco performs web scraping using BeautifulSoup on the URL provided by function get_url_costco.
-
 <br><br> 
 6. **WebScrapper_Ebay.py** <br><br>
 * function run(): The function run is executed when the thread is started. It gets the result from the function scrap_ebay and extracts output in the desired format from the result.<br>
 * function get_driver(): The function get_driver prepares and returns a Chrome driver using Selenium.<br>
 * function get_url_ebay(): The function get_url_ebay prepares a URL for Ebay scraping from description.<br>
 * function scrap_ebay(): The function scrap_ebay performs web scraping using BeautifulSoup on the URL provided by function get_url_ebay.
-
 <br><br>
 7. **WebScrapper_Walmart.py** <br><br>
 * function run(): The function run is executed when the thread is started. It gets the result from the function scrap_walmart and extracts output in the desired format from the result<br>
@@ -68,3 +79,10 @@ Config file of an extension that provides important information regarding the ex
 This popup.js file fetches the url of the current tab and passes it to the server. The response is generated from the server which fetches the same product from different websites and displays it on the extension.<br><br>
 5. **robot.txt**<br>
 A robots.txt file tells search engine crawlers which URLs the crawler can access on your site.<br><br>
+
+**Output:**<br>
+The below screenshot shows the website created for cheapBuy. In the output, the cheapest option is highlighted in the website.<br><br>
+<img src="https://github.com/anshulp2912/cheapBuy/blob/main/media/UIinterface.png"><br><br>
+<img src="https://github.com/anshulp2912/cheapBuy/blob/main/media/CheapBuy_Extension.PNG"><br><br>
+<img src="https://github.com/anshulp2912/cheapBuy/blob/main/media/CheapBuy_Extension_output.PNG"><br><br>
+<img src="https://github.com/anshulp2912/cheapBuy/blob/main/media/highlight.jpeg"><br><br>
