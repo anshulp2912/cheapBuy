@@ -21,11 +21,6 @@ class WebScrapper:
     
     def get_driver(self):
         options = webdriver.ChromeOptions()
-        # options.binary_location = '/usr/bin/chromium-browser'
-        options.add_argument("--no-sandbox") #This make Chromium reachable
-        options.add_argument("--no-default-browser-check") #Overrides default choices
-        options.add_argument("--no-first-run")
-        options.add_argument("--disable-default-apps") 
         driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
         return driver
 
