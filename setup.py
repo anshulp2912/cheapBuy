@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(name='cheapBuy',
-      version='1.0',
+      version='2.0',
       description='cheapBuy Extension provides you ease to buy any product through your favourite website like Amazon, Walmart, Ebay, Bjs, Costco, etc, by providing prices of the same product from all different websites to extension.',
-      author='Hardik, Het, Vineet, Saloni, Kalgee',
-      author_email='hetpatel0199@gmail.com',
-      url='https://github.com/het-patel99/cheapBuy.git',
+      author='Anshul, Bhavya, Darshan, Pragna, Rohan',
+      author_email='anshulp2912@gmail.com',
+      url='https://github.com/anshulp2912/cheapBuy.git',
       packages=['cheapBuy'],
       long_description="""\
             Hands on for the standard github repo files.
@@ -38,7 +38,10 @@ setup(name='cheapBuy',
             'BeautifulSoup',
             'pytest',
             'Flask',
-            'Flask-Cors',
-            'webdriver_manager'
+            'selenium',
+            'streamlit',
+            'webdriver_manager',
+            'pyshorteners',
+            'link-button'
         ],
      )
