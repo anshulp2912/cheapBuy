@@ -97,7 +97,7 @@ cd cheapBuy
 ```
 pip install -r requirements.txt
 ```
-3. Check out the demo video to know about the use of the extension.
+3. Check out the demo video to know about the use of the extension in the media files.
 
 ## 📅 Plan of Action <a name="PlanofAction"></a>
 ### PHASE-1✅ <a name="Phase1"></a>
