@@ -28,13 +28,10 @@
 <a href="https://github.com/anshulp2912/cheapBuy/pulls" target="blank">
 <img src="https://img.shields.io/github/issues-pr/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy pull-requests"/>
 </a>
-
 <a href="https://github.com/anshulp2912/cheapBuy/milestones" alt="milestones">
 <img src="https://img.shields.io/github/milestones/all/anshulp2912/cheapBuy" /></a> 
-
 <a href="https://github.com/anshulp2912/cheapBuy/graphs/commit-activity" alt="commit activity">
 <img src="https://img.shields.io/github/commit-activity/w/anshulp2912/cheapBuy" /></a> 
-
 <a href="https://img.shields.io/github/repo-size/anshulp2912/cheapBuy" alt="repo size">
 <img src="https://img.shields.io/github/repo-size/anshulp2912/cheapBuy" /></a>
 
@@ -86,7 +83,7 @@
 - **Highlight Cheapest product**
 
 ## 🚀 Demo <a name="Demo"></a>
-The project is deployed on both Streamlit cloud:
+The project is deployed on Streamlit cloud:
 - [Streamlit](https://share.streamlit.io/anshulp2912/cheapbuy/main/cheapBuy_user_interface.py)
 
 ## 🛠️ Steps of Execution <a name="ExecutionSteps"></a>
